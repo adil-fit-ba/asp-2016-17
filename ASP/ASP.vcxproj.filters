@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\V01_Lista">
+      <UniqueIdentifier>{ef6bef3c-86c1-466c-a05e-b8e1831f49d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V05_Sortiranja1">
+      <UniqueIdentifier>{e0c5610a-7c46-4ac0-bcc5-f88d27604364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V04_PR">
+      <UniqueIdentifier>{74ad465d-fdf0-47a1-a3a9-ac842120f056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V03_Red">
+      <UniqueIdentifier>{f8c4d5a5-30f6-439c-8a51-c3633c74c115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V02_Stek">
+      <UniqueIdentifier>{ca9464d2-b6b7-475a-85d3-bfbb5c162b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V06_Sortiranja2">
+      <UniqueIdentifier>{58f1f67d-73c8-4e79-bd01-f14b43d79c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V00_Cvor">
+      <UniqueIdentifier>{7b0a01dc-cfe2-409f-b248-8eaa4e28b382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V09_BfsDfs">
+      <UniqueIdentifier>{53db7e7f-bc1d-4dc9-9862-b860825bbb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V10_Dijkstra">
+      <UniqueIdentifier>{af522c21-5111-4385-b9f5-754fd352e122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V11_MstAlgoritmi">
+      <UniqueIdentifier>{bd11b071-51a2-4689-b689-8653d4972733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V08_BinarySearchTree">
+      <UniqueIdentifier>{5cd963ba-a465-4c51-99c3-a9ffb04ef8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V07_MatricaSusjedstva">
+      <UniqueIdentifier>{dcc7b54d-85d5-4166-8bee-43698e8104ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V12_Hashing">
+      <UniqueIdentifier>{b11607f9-854f-4f54-8266-5f9bffcce441}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimAlgoritam.h">
+      <Filter>Source Files\V11_MstAlgoritmi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KruskalAlgoritam.h">
+      <Filter>Source Files\V11_MstAlgoritmi</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Source Files\V01_Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPov.h">
+      <Filter>Source Files\V01_Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaSekv.h">
+      <Filter>Source Files\V01_Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="RedSekv.h">
+      <Filter>Source Files\V03_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritetniRed.h">
+      <Filter>Source Files\V04_PR</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritetniRedHeap.h">
+      <Filter>Source Files\V04_PR</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritetniRedPov.h">
+      <Filter>Source Files\V04_PR</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritetniRedSekv.h">
+      <Filter>Source Files\V04_PR</Filter>
+    </ClInclude>
+    <ClInclude Include="Stek.h">
+      <Filter>Source Files\V02_Stek</Filter>
+    </ClInclude>
+    <ClInclude Include="StekPov.h">
+      <Filter>Source Files\V02_Stek</Filter>
+    </ClInclude>
+    <ClInclude Include="StekSekv.h">
+      <Filter>Source Files\V02_Stek</Filter>
+    </ClInclude>
+    <ClInclude Include="Red.h">
+      <Filter>Source Files\V03_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="RedPov.h">
+      <Filter>Source Files\V03_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="Cvor.h">
+      <Filter>Source Files\V00_Cvor</Filter>
+    </ClInclude>
+    <ClInclude Include="Osoba.h">
+      <Filter>Source Files\V00_Cvor</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V01.h">
+      <Filter>Source Files\V01_Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V02.h">
+      <Filter>Source Files\V02_Stek</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V03.h">
+      <Filter>Source Files\V03_Red</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V04.h">
+      <Filter>Source Files\V04_PR</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V00.h">
+      <Filter>Source Files\V00_Cvor</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V05.h">
+      <Filter>Source Files\V05_Sortiranja1</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V06.h">
+      <Filter>Source Files\V06_Sortiranja2</Filter>
+    </ClInclude>
+    <ClInclude Include="Ivica.h">
+      <Filter>Source Files\V07_MatricaSusjedstva</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Source Files\V05_Sortiranja1</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Source Files\V05_Sortiranja1</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>Source Files\V06_Sortiranja2</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Source Files\V06_Sortiranja2</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V09.h">
+      <Filter>Source Files\V09_BfsDfs</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V10.h">
+      <Filter>Source Files\V10_Dijkstra</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V11.h">
+      <Filter>Source Files\V11_MstAlgoritmi</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarnoStablo.h">
+      <Filter>Source Files\V08_BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BSCvor.h">
+      <Filter>Source Files\V08_BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BSObilazak.h">
+      <Filter>Source Files\V08_BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraAlgoritam.h">
+      <Filter>Source Files\V10_Dijkstra</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V08.h">
+      <Filter>Source Files\V08_BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V07.h">
+      <Filter>Source Files\V07_MatricaSusjedstva</Filter>
+    </ClInclude>
+    <ClInclude Include="DfsAlgoritamIterativno.h">
+      <Filter>Source Files\V09_BfsDfs</Filter>
+    </ClInclude>
+    <ClInclude Include="BfsAlgoritamIterativno.h">
+      <Filter>Source Files\V09_BfsDfs</Filter>
+    </ClInclude>
+    <ClInclude Include="DfsAlgoritamRekurzija.h">
+      <Filter>Source Files\V09_BfsDfs</Filter>
+    </ClInclude>
+    <ClInclude Include="MatricaSusjedstva.h">
+      <Filter>Source Files\V07_MatricaSusjedstva</Filter>
+    </ClInclude>
+    <ClInclude Include="_Test_V12.h">
+      <Filter>Source Files\V12_Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="Hashiranje.h">
+      <Filter>Source Files\V12_Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="HashiranjeOtvorenoAdresiranje.h">
+      <Filter>Source Files\V12_Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="HashiranjeUlancavanjem.h">
+      <Filter>Source Files\V12_Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="UsporedbaGeneric.h">
+      <Filter>Source Files\V00_Cvor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Matrica4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica8_stablo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica15_binarno_stablo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Matrica9_t.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="matrica10_t.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Matrica9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Matrica5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Matrica6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="matrica10_t.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
