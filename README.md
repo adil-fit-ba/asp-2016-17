@@ -1,4 +1,4 @@
-# asp-2017-18
+# asp-2016-17
 C++ code iz predmeta "Algorimi i strukture podataka" - vježbe - ak. 2016/17
 
 video lekcije
