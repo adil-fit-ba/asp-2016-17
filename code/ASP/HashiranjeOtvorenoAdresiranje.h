@@ -33,7 +33,7 @@ public:
 	void dodaj(Tip k)
 	{
 		if (jelPun())
-			throw std::exception("greska. Hashset je pun.");
+			throw exception("greska. Hashset je pun.");
 		int i = IzracunajHash(k);
 
 		while (zauzeto[i])
@@ -44,6 +44,7 @@ public:
 		}
 		Niz[i] = k;
 		zauzeto[i] = true;
+		brojac++;
 	}
 
 	bool jelPrazan()
@@ -66,6 +67,7 @@ public:
 				{
 					zauzeto[i] = false;
 					cout << "uklonjeno " << k << endl;
+					brojac--;
 					return true;
 				}
 			}
@@ -81,9 +83,9 @@ public:
 		for (int i = 0; i<n; i++)
 		{
 			if (zauzeto[i])
-				std::cout << i << ": " << Niz[i] << std::endl;
+				cout << i << ": " << Niz[i] << endl;
 			else
-				std::cout << i << ": (x) " << std::endl;
+				cout << i << ": (x) " << endl;
 		}
 	}
 };
