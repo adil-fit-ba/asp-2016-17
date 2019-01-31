@@ -118,14 +118,14 @@ public:
 
 	ListaPov<int>* izlazniStepenMax() //O(n2 + 2n)
 	{
-		//korak1: raèunanje izlaznih stepena O(n2)
+		//korak1: raÃ¨unanje izlaznih stepena O(n2)
 		int* stepeni = new int[velicina];
 		for (int i = 0; i < velicina; i++)
 		{
 			stepeni[i] = izlazniStepen(i);
 		}
 
-		//korak2: pronaæi maxVr O(n)
+		//korak2: pronaÃ¦i maxVr O(n)
 		int maxVr = INT_MIN;
 		for (int i = 0; i < velicina; i++)
 		{
@@ -134,7 +134,7 @@ public:
 		}
 
 
-		//korak3: dodati sve vrhove èiji je izlazni stepen = maxVr
+		//korak3: dodati sve vrhove Ã¨iji je izlazni stepen = maxVr
 		//O(n)
 		ListaPov<int>* x = new ListaPov<int>;
 	
@@ -180,6 +180,7 @@ public:
 	void dodaj(Ivica * ivica)
 	{
 		data[ivica->startVrh][ivica->endVrh] = ivica->tezina;
+		data[ivica->endVrh][ivica->startVrh] = ivica->tezina;
 	}
 
 	
