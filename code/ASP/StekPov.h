@@ -62,6 +62,7 @@ public:
 		{
 			if (IsJednako(t->info, value))
 				return true;
+			t = t->next;
 		}
 		return false;
 	}
